@@ -1,9 +1,8 @@
 import { Avatar, Box, Heading, VStack, Text, Button, SimpleGrid } from '@chakra-ui/react'
 
 import Layout from '@/components/layout'
-import Cards from '@/components/cards'
 
-import { UilInstagram, UilTwitter, UilFacebook, UilYoutube } from '@iconscout/react-unicons'
+import { RiInstagramLine as UilInstagram, RiTwitterLine as UilTwitter, RiFacebookBoxLine as UilFacebook, RiYoutubeLine as UilYoutube } from 'react-icons/ri'
 
 const Social = () => {
   return (

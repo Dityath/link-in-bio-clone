@@ -1,6 +1,6 @@
 import { Box, Switch, Text, useColorMode, useDisclosure, Button, Drawer, DrawerOverlay, DrawerContent, DrawerCloseButton, DrawerHeader, DrawerBody, DrawerFooter, Stack } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
-import { UilShoppingCartAlt, UilUsersAlt } from '@iconscout/react-unicons'
+import { RiShoppingCart2Line as UilShoppingCartAlt, RiTeamLine as UilUsersAlt } from "react-icons/ri";
 import Link from 'next/link'
 
 const Navbar = () => {
